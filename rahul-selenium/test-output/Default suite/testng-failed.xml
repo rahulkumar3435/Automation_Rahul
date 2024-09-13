@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNgPractice.Class2">
+      <class name="com.rahul.assignments.MakeMytrip">
         <methods>
-          <include name="login"/>
-          <include name="after"/>
+          <include name="bookFlight"/>
         </methods>
-      </class> <!-- testNgPractice.Class2 -->
+      </class> <!-- com.rahul.assignments.MakeMytrip -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

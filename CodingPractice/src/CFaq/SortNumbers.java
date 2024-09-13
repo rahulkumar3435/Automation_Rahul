@@ -10,6 +10,9 @@ public class SortNumbers {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
+		Integer a =10;
+		int b = a;
+		Integer c =b;
 		Scanner input=new Scanner(System.in);
 		
 		List <Integer> number=new ArrayList<>();

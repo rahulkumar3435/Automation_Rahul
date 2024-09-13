@@ -2,6 +2,9 @@ package com.rahul.basic;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
+
+import AdvanceProblems.Hdhkj;
+
 import static com.rahul.basic.DriverLaunch.launch;
 
 public class Check {
@@ -18,5 +21,9 @@ public class Check {
 	public static void main(String[] args) {
 		//DriverLaunch d = new Check();
 		launch("ddf");
+		int clas =90;
+		Hdhkj.sum();
+		
+		
 	}
 }
